@@ -1,5 +1,5 @@
 # yolo_e2e
-Implementation of End-to-End YOLO Models
+Implementation of End-to-End YOLO Models for TensorRT
 
 
 This repository supports segmentation and detection models from the YOLO series - YOLOv10, YOLOv9, YOLOv8, and YOLOv7. 
