@@ -74,7 +74,7 @@ def export_onnx_trt(model, im, file, class_agnostic, topk_all, iou_thres, conf_t
         'stride': int(max(model.stride)),
         'names': model.names,
         'model type' : 'Detection' if is_det_model else 'Segmentation',
-        'TRT Compatibility': '8.6 or above',
+        'TRT Compatibility': '8.6 or above' if class_agnostic else '8.5 or above', 
         'TRT Plugins': 'EfficientNMS_TRT' if is_det_model else 'EfficientNMSX_TRT, ROIAlign'
         }
 
