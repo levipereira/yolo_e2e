@@ -2,8 +2,8 @@
 
 
 ## Description
-This implementation use two TensorRT Plugins YoloNMS and ROIAling.<br>
-[YoloNMS](https://github.com/levipereira/TensorRT/tree/release/8.6/plugin/yoloNMSPlugin) is a custom TRT Plugin. For now we must build this Plugin.<br>
+This implementation use two TensorRT Plugins EfficientNMSX and ROIAling.<br>
+[EfficientNMSX](https://github.com/levipereira/TensorRT/tree/release/8.6/plugin/EfficientNMS) is a custom TRT Plugin. For now we must build this Plugin.<br>
 ROIAling is available on TensorRT since 8.5
 
 ### Export Model - End2End for Detection and Segmentation
