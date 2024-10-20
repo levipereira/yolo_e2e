@@ -71,7 +71,7 @@ def main(args):
 
     img_size = args.size * 2 if len(args.size) == 1 else args.size
 
-    onnx_input_im = torch.zeros(args.batch, 3, *img_size).to(device)
+    onnx_input_im = torch.zeros(1, 3, *img_size).to(device)
     onnx_output_file = os.path.basename(args.weights).split('.pt')[0] + '.onnx'
 
     output_names = ['num_dets', 'det_boxes', 'det_scores', 'det_classes'] 
