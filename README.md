@@ -1,9 +1,13 @@
 # yolo_e2e
 Implementation of End-to-End YOLO Models for TensorRT
 
-## ⚠️ Important Notice: This project is currently under construction. ⚠️
+ 
 
-This repository supports segmentation and detection models from the YOLO series - YOLOv10, YOLOv9, YOLOv8, and YOLOv7. 
+This repository supports segmentation and detection models from the YOLO series - YOLO11, YOLOv10, YOLOv9, YOLOv8, and YOLOv7. 
+
+
+Use the repository https://github.com/levipereira/ultralytics specifically for exporting the YOLOv11, YOLOv10, and YOLOv8 models.
+
 
 All YOLO series models are implemented with End2End Deep Learning, incorporating three key features:
 
